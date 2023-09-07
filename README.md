@@ -1,7 +1,7 @@
 
 # Britlex Landing Page
 
-![Project Logo](.png)
+![Project Logo](src/assets/Britlex.png)
 
 ## Table of Contents
 
@@ -20,9 +20,8 @@ The Britlex Landing Page is a React project designed to help users learn a new l
 
 ## Demo
 
-You can view a live demo of the project at [Demo Link](https://your-demo-link.com).
+You can view a live demo of the project at [Demo Link](https://creative-pie-c1e977.netlify.app/).
 
-![Project Screenshot](screenshot.png)
 
 ## Features
 
