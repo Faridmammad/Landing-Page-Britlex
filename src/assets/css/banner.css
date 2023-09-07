@@ -1,0 +1,85 @@
+.banner {
+  padding: 1rem 0rem 2rem 0rem;
+  display: flex;
+  flex-direction: row;
+  @media screen and (max-width: 320px) {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.banner_left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  @media screen and (max-width: 320px) {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+  }
+}
+
+.banner_Icon {
+  @media screen and (max-width: 320px) {
+    display: none;
+  }
+}
+.banner_Header {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-items: center;
+}
+.banner_Title {
+  font-size: 64px;
+  font-weight: 600;
+  color: #000000;
+  width: 386px;
+  @media screen and (max-width: 320px) {
+    font-size: 24px;
+    text-align: center;
+    width: 220px;
+  }
+}
+
+.banner_Subtext {
+  font-size: 24px;
+  justify-content: left;
+  color: #8f95a5;
+  width: 632px;
+  @media screen and (max-width: 320px) {
+    font-size: 14px;
+    width: 280px;
+    text-align: center;
+  }
+}
+.banner_Button {
+  width: 438px;
+  height: 118px;
+  background-color: #263238;
+  color: #ffffff;
+  font-size: 36px;
+  @media screen and (max-width: 320px) {
+    width: 290px;
+    height: 60px;
+    font-size: 16px;
+  }
+}
+
+.banner_right {
+  width: 50%;
+  @media screen and (max-width: 320px) {
+    width: auto;
+    align-items: center;
+  }
+}
+.girl_Pic {
+  height: 661px;
+  width: 661px;
+  @media screen and (max-width: 320px) {
+    height: 299px;
+    width: 299px;
+  }
+}

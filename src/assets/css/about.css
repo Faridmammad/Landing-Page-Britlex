@@ -1,0 +1,86 @@
+.about {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 3rem;
+
+  @media screen and (max-width: 320px) {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+.about_Left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  @media screen and (max-width: 320px) {
+    text-align: center;
+  }
+}
+.about_Img {
+  width: 500px;
+  height: 500px;
+  @media screen and (max-width: 320px) {
+    width: 283px;
+    height: 283px;
+  }
+}
+
+.about_Title {
+  font-size: 48px;
+  font-weight: 600;
+  padding-bottom: 1.5rem;
+  @media screen and (max-width: 320px) {
+    font-size: 24px;
+  }
+}
+
+.about_Subtitle {
+  font-size: 20px;
+  color: #8f95a5;
+  width: 635px;
+  @media screen and (max-width: 320px) {
+    width: 315px;
+    font-size: 13px;
+  }
+}
+.about_Data {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 2rem;
+
+  @media screen and (max-width: 320px) {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.about_Data_Group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.about_Data_Text {
+  font-size: 48px;
+  color: #2a3246;
+  @media screen and (max-width: 320px) {
+    font-size: 24px;
+  }
+}
+
+.about_Data_Subtext {
+  font-size: 20px;
+  color: #8f95a5;
+  @media screen and (max-width: 320px) {
+    font-size: 13px;
+  }
+}

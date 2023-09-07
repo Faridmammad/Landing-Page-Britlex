@@ -1,0 +1,112 @@
+.pricing {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  height: 100%;
+  padding-bottom: 4rem;
+  @media screen and (max-width: 320px) {
+    align-items: center;
+  }
+}
+
+.pricing_Title {
+  text-align: center;
+  font-size: 48px;
+  padding-bottom: 1.5rem;
+  font-weight: 600;
+  @media screen and (max-width: 320px) {
+    width: 228px;
+    font-size: 24px;
+  }
+}
+
+.pricing_Plans {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+
+  @media screen and (max-width: 320px) {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+}
+
+.pricing_Card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 33%;
+  gap: 2rem;
+
+  @media screen and (max-width: 320px) {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+}
+
+.pricing_Text {
+  font-size: 30px;
+  color: #263238;
+  font-weight: 600;
+  @media screen and (max-width: 320px) {
+    font-size: 18px;
+  }
+}
+
+.pricing_Subtext {
+  font-size: 20px;
+  height: 100px;
+  font-weight: 400;
+  color: #8f95a5;
+  @media screen and (max-width: 320px) {
+    font-size: 13px;
+    height: 50px;
+  }
+}
+
+.pricing_Price {
+  width: 280px;
+  height: 45px;
+  background-color: #eeeeee;
+  color: #263238;
+  font-size: 30px;
+  @media screen and (max-width: 320px) {
+    width: 170px;
+    height: 37px;
+    text-align: center;
+    font-size: 18px;
+  }
+}
+
+.pricing_Img1 {
+  width: 311px;
+  height: 280px;
+  @media screen and (max-width: 320px) {
+    width: 248px;
+    height: 248px;
+  }
+}
+
+.pricing_Img2 {
+  width: 391px;
+  height: 283px;
+  @media screen and (max-width: 320px) {
+    width: 257px;
+    height: 197px;
+  }
+}
+.pricing_Img3 {
+  width: 340px;
+  height: 285px;
+  @media screen and (max-width: 320px) {
+    width: 241px;
+    height: 241px;
+  }
+}

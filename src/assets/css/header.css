@@ -1,0 +1,39 @@
+.logo {
+  width: 106px;
+  height: 35px;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0rem 2rem 0rem;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  color: #263238;
+  font-size: 20px;
+  @media screen and (max-width: 320px) {
+    display: none;
+  }
+}
+
+.button_Header {
+  border: solid 2px #263238;
+  background-color: none;
+  width: 220px;
+  height: 70px;
+  @media screen and (max-width: 320px) {
+    display: none;
+  }
+}
+.hamburger {
+  display: none;
+  @media screen and (max-width: 320px) {
+    display: flex;
+  }
+}
