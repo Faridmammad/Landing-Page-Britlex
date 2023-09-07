@@ -1,7 +1,7 @@
 
 # Britlex Landing Page
 
-![Project Logo](link-to-your-logo.png)
+![Project Logo](.png)
 
 ## Table of Contents
 
